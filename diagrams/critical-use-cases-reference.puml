@@ -1,0 +1,41 @@
+@startuml CampusSignal_Critical_Use_Cases_Reference
+' Portfolio reference revision dated 31 October 2026.
+' Derived from the team RAD-v1 and supplied reference model.
+' This is not the recovered original source of the submitted Figure 1.
+left to right direction
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName Arial
+actor "Campus User" as User
+actor "Technician" as Tech
+actor "IT Administrator" as Admin
+actor "AP Controller" as AP
+rectangle "CampusSignal critical use cases" {
+  usecase "UC-01\nSubmit Connectivity Evidence" as UC01
+  usecase "UC-02\nTriage and Assign an Issue" as UC02
+  usecase "UC-03\nRecord an Intervention" as UC03
+  usecase "UC-04\nVerify Service Recovery" as UC04
+  usecase "UC-05\nInvestigate Underobserved Zones" as UC05
+  usecase "Evaluate Submitted\nMeasurement" as Evaluate
+  usecase "Create / Update\nCandidate Issue" as Candidate
+  usecase "Attempt to Retrieve\nAP Controller Telemetry" as Telemetry
+  UC01 ..> Evaluate : <<include>>
+  Candidate ..> UC01 : <<extend>>\n[configured detection criteria met]
+  UC02 ..> Telemetry : <<include>>
+  UC05 ..> Telemetry : <<include>>
+}
+User -- UC01
+Tech -- UC03
+Admin -- UC02
+Admin -- UC04
+Admin -- UC05
+AP -- Telemetry
+note bottom of Candidate
+  A matching issue is updated; otherwise a candidate is created.
+  Utility use cases are omitted from this focused reference.
+end note
+note bottom of Telemetry
+  Retrieval is read-only; current telemetry is not a precondition.
+  Stale or unavailable telemetry is explicitly labelled.
+end note
+@enduml

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1210" viewBox="0 0 1600 1210">
+<defs>
+<marker id="blueArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#1d4e89" stroke-width="1.6"/></marker>
+<marker id="amberArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#976b1e" stroke-width="1.6"/></marker>
+</defs>
+<rect width="1600" height="1210" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#18324c">
+<text x="42" y="42" font-size="28" font-weight="700">CampusSignal Critical Use Cases</text>
+<text x="42" y="72" font-size="17" fill="#53677b">Portfolio reference revision based on the team RAD-v1</text>
+<rect x="190" y="100" width="1220" height="1035" rx="12" fill="#fbfcfe" stroke="#355b7b" stroke-width="2"/>
+<text x="215" y="135" font-size="20" font-weight="700">CampusSignal system boundary</text>
+
+<circle cx="75" cy="185" r="13" fill="white" stroke="#355b7b" stroke-width="2.5"/>
+<path d="M 75 198 L 75 237 M 52 213 L 98 213 M 75 237 L 54 263 M 75 237 L 96 263" stroke="#6c8193" stroke-width="2" fill="none"/>
+<text x="75" y="290" text-anchor="middle" font-size="17" font-weight="700" fill="#18324c">Campus User</text>
+<circle cx="75" cy="615" r="13" fill="white" stroke="#355b7b" stroke-width="2.5"/>
+<path d="M 75 628 L 75 667 M 52 643 L 98 643 M 75 667 L 54 693 M 75 667 L 96 693" stroke="#6c8193" stroke-width="2" fill="none"/>
+<text x="75" y="720" text-anchor="middle" font-size="17" font-weight="700" fill="#18324c">Technician</text>
+<circle cx="1515" cy="545" r="13" fill="white" stroke="#355b7b" stroke-width="2.5"/>
+<path d="M 1515 558 L 1515 597 M 1492 573 L 1538 573 M 1515 597 L 1494 623 M 1515 597 L 1536 623" stroke="#6c8193" stroke-width="2" fill="none"/>
+<text x="1515" y="650" text-anchor="middle" font-size="17" font-weight="700" fill="#18324c">IT Administrator</text>
+<circle cx="75" cy="985" r="13" fill="white" stroke="#355b7b" stroke-width="2.5"/>
+<path d="M 75 998 L 75 1037 M 52 1013 L 98 1013 M 75 1037 L 54 1063 M 75 1037 L 96 1063" stroke="#6c8193" stroke-width="2" fill="none"/>
+<text x="75" y="1090" text-anchor="middle" font-size="17" font-weight="700" fill="#18324c">AP Controller</text>
+<path d="M 100 220 L 340 220" stroke="#6c8193" stroke-width="2" fill="none"/>
+<path d="M 100 650 L 340 650" stroke="#6c8193" stroke-width="2" fill="none"/>
+<path d="M 1490 580 L 1435 580 L 1435 220 L 1320 220" stroke="#6c8193" stroke-width="2" fill="none"/>
+<path d="M 1435 580 L 1320 580" stroke="#6c8193" stroke-width="2" fill="none"/>
+<path d="M 1435 580 L 1435 850 L 1320 850" stroke="#6c8193" stroke-width="2" fill="none"/>
+<path d="M 100 1020 L 440 1020" stroke="#6c8193" stroke-width="2" fill="none"/>
+<path d="M 490 271 L 490 306 L 360 306 L 360 340" stroke="#1d4e89" stroke-width="2.5" stroke-dasharray="8 6" fill="none" marker-end="url(#blueArrow)"/>
+<text x="380" y="295" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4e89">«include»</text>
+<path d="M 620 348 L 620 302 L 603 274" stroke="#976b1e" stroke-width="2.5" stroke-dasharray="8 6" fill="none" marker-end="url(#amberArrow)"/>
+<text x="710" y="305" text-anchor="middle" font-size="17" font-weight="700" fill="#976b1e">«extend»</text>
+<text x="710" y="329" text-anchor="middle" font-size="15" font-weight="400" fill="#976b1e">[detection criteria met]</text>
+<path d="M 950 255 L 890 300 L 890 955 L 770 955 L 770 977" stroke="#1d4e89" stroke-width="2.5" stroke-dasharray="8 6" fill="none" marker-end="url(#blueArrow)"/>
+<text x="945" y="482" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4e89">«include»</text>
+<path d="M 965 889 L 930 925 L 850 995" stroke="#1d4e89" stroke-width="2.5" stroke-dasharray="8 6" fill="none" marker-end="url(#blueArrow)"/>
+<text x="1035" y="938" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4e89">«include»</text>
+<ellipse cx="550" cy="220" rx="210" ry="55" fill="#edf5fc" stroke="#507797" stroke-width="2"/>
+<text x="550" y="213" text-anchor="middle" font-size="19" font-weight="700" fill="#18324c">UC-01</text>
+<text x="550" y="239" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Submit Connectivity Evidence</text>
+<ellipse cx="1110" cy="220" rx="210" ry="55" fill="#edf5fc" stroke="#507797" stroke-width="2"/>
+<text x="1110" y="213" text-anchor="middle" font-size="19" font-weight="700" fill="#18324c">UC-02</text>
+<text x="1110" y="239" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Triage and Assign an Issue</text>
+<ellipse cx="360" cy="385" rx="155" ry="45" fill="#ffffff" stroke="#507797" stroke-width="2"/>
+<text x="360" y="378" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Evaluate Submitted</text>
+<text x="360" y="404" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Measurement</text>
+<ellipse cx="700" cy="385" rx="170" ry="45" fill="#ffffff" stroke="#507797" stroke-width="2"/>
+<text x="700" y="378" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Create / Update</text>
+<text x="700" y="404" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Candidate Issue</text>
+<ellipse cx="550" cy="650" rx="210" ry="55" fill="#edf5fc" stroke="#507797" stroke-width="2"/>
+<text x="550" y="643" text-anchor="middle" font-size="19" font-weight="700" fill="#18324c">UC-03</text>
+<text x="550" y="669" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Record an Intervention</text>
+<ellipse cx="1110" cy="580" rx="210" ry="55" fill="#edf5fc" stroke="#507797" stroke-width="2"/>
+<text x="1110" y="573" text-anchor="middle" font-size="19" font-weight="700" fill="#18324c">UC-04</text>
+<text x="1110" y="599" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Verify Service Recovery</text>
+<ellipse cx="1110" cy="850" rx="210" ry="55" fill="#edf5fc" stroke="#507797" stroke-width="2"/>
+<text x="1110" y="843" text-anchor="middle" font-size="19" font-weight="700" fill="#18324c">UC-05</text>
+<text x="1110" y="869" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Investigate Underobserved Zones</text>
+<ellipse cx="660" cy="1020" rx="220" ry="50" fill="#ffffff" stroke="#507797" stroke-width="2"/>
+<text x="660" y="1013" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">Attempt to Retrieve</text>
+<text x="660" y="1039" text-anchor="middle" font-size="19" font-weight="400" fill="#18324c">AP Controller Telemetry</text>
+<text x="550" y="475" text-anchor="middle" font-size="16" font-weight="400" fill="#53677b">A matching active issue is updated;</text>
+<text x="550" y="499" text-anchor="middle" font-size="16" font-weight="400" fill="#53677b">otherwise a new candidate is created.</text>
+<text x="520" y="805" text-anchor="middle" font-size="16" font-weight="400" fill="#53677b">Authentication, registration, coverage and</text>
+<text x="520" y="829" text-anchor="middle" font-size="16" font-weight="400" fill="#53677b">configuration use cases are omitted here.</text>
+<text x="660" y="1106" text-anchor="middle" font-size="16" font-weight="400" fill="#53677b">Read-only retrieval; stale and unavailable data remain explicitly labelled.</text>
+<text x="42" y="1175" text-anchor="start" font-size="17" font-weight="400" fill="#53677b">Reference model only. The submitted diagram remains available separately; report flows define the detailed behavior.</text>
+</g></svg>
