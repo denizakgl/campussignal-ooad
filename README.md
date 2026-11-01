@@ -61,7 +61,8 @@ The RAD documents **59 functional requirements, 24 nonfunctional requirements, f
 
 ![Critical use cases reference revision](diagrams/critical-use-cases-reference.svg)
 
-This focused portfolio reference corrects relationship directions and connects the candidate-issue extension. It is separate from the diagram in the submitted report and is not its recovered original editable source. [Diagram provenance and source](diagrams/README.md).
+This revised reference diagram clarifies UML use-case relationships and the candidate-issue extension. The original submitted diagram remains available in the RAD-v1 report.
+ [Diagram provenance and source](diagrams/README.md).
 
 ## Known scope and limitations
 
