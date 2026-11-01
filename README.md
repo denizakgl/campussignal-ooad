@@ -1,8 +1,10 @@
 # CampusSignal
 
-Requirements analysis and Figma UI prototyping for campus Wi-Fi issue reporting and service recovery. A six-person Object-Oriented Analysis and Design course project at Manisa Celal Bayar University, Fall 2026.
 
-**Project stage:** RAD-v1 analysis and prototype snapshot dated 25 October 2026. The artifacts describe proposed behavior and illustrative screens; they do not demonstrate a deployed application, implemented backend, live AP integration or measured production performance.
+CampusSignal is a proposed campus Wi-Fi issue reporting and management system. It enables campus users to report connectivity problems and outlines a structured workflow for IT staff to review evidence, investigate incidents, and track service recovery.
+
+Developed as a six-member Object-Oriented Analysis and Design course project at Manisa Celal Bayar University (Fall 2026), this repository presents the RAD-v1 requirements analysis, system design, and Figma UI prototype as of October 25, 2026. It is a design prototype, not a deployed application.
+
 
 ## Explore the project
 
