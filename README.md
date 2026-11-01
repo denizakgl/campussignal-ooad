@@ -45,7 +45,7 @@ The RAD documents **59 functional requirements, 24 nonfunctional requirements, f
 | Arda Korkmaz | NFR-01 to NFR-24, shared Figma components, integration and report assembly |
 | Azize Görür | UC-04, FR-30 to FR-39, traceability and issue-state consistency |
 | Caner Gündaş | UC-05, FR-40 to FR-49, functional-requirement consolidation and appendix coordination |
-| Devran Deniz Akgül | UC-03, FR-20 to FR-29, glossary and technician screens |
+| Devran Deniz Akgül | UC-03 use-case analysis, FR-20 to FR-29 requirements documentation, glossary contributions, and technician-facing Figma prototype screens |
 
 ## Selected artifacts
 
