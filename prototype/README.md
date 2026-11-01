@@ -2,7 +2,8 @@
 
 [Figma design file](https://www.figma.com/design/nSv8Gq4lP7FpZDuJDeCeDG/CampusSignal?node-id=0-1) · [UC-05 prototype starting point](https://www.figma.com/proto/nSv8Gq4lP7FpZDuJDeCeDG/CampusSignal-%E2%80%93-RAD-v1-Prototype?node-id=21-215&starting-point-node-id=21%3A215)
 
-The links come from the RAD-v1 report. Current sharing permissions and click behavior have not been checked during publication preparation. The PNG files are static design exports, not evidence of a deployed application.
+
+Explore the Figma design and interactive UC-05 prototype using the links above. The PNG files below are static exports of the proposed interface designs.
 
 | Screen export | Context |
 | --- | --- |
