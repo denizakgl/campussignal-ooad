@@ -65,9 +65,6 @@ This focused portfolio reference corrects relationship directions and connects t
 
 ## Known scope and limitations
 
-- This snapshot is RAD-v1. Object, sequence and state-machine models are reserved for RAD-v2.
-- The report records incomplete UC-04 click reactions for UI-30, UI-32, UI-33 and UI-34; a complete interactive recovery flow is not certified.
-- A dedicated Reopened-to-In-Progress resume route and complete regression testing are not verified in this snapshot.
-- Screen values, records and telemetry are illustrative. Persistence, integrations, consent enforcement and performance require implementation and testing.
-
-The public report removes student numbers and unconfirmed internal meeting drafts. Original printed page labels are retained. See the publication notes for the exact preparation scope.
+- This repository represents RAD-v1, focusing on requirements analysis and UI prototyping. Object, sequence, and state-machine models are planned for RAD-v2.
+- The UC-04 service recovery prototype has incomplete interactions, and some issue-reopening workflows remain unverified.
+- Screen data and telemetry are illustrative. Backend persistence, integrations, consent enforcement, and performance have not been validated.
