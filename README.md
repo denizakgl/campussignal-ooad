@@ -14,7 +14,9 @@ Developed as a six-member Object-Oriented Analysis and Design course project at 
 - [View the prototype screen catalogue](prototype/README.md)
 - [Read the publication and review notes](docs/publication-notes.md)
 
-The Figma links are preserved from the project materials. Their current sharing settings and navigation have not been reverified as part of this publication package.
+
+Note: Some Figma links may require access permission.
+
 
 ## Problem and proposed workflow
 
